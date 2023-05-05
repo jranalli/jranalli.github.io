@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Joseph Ranalli - Home</title>
+    <meta name="description" content="Dr. Joseph Ranalli Website">
+    <meta name="keywords" content="Joseph Ranalli, Joe Ranalli, Alternative Energy, Alternative Energy Engineering, Alternative Energy and Power Generation, Penn State, Penn State Hazleton, Research, Teaching, Engineering, Combustion, Solar Power, Engineering Pedagogy">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=0.666667, maximum-scale=0.666667, user-scalable=0">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+	<!--#include file="titlebar.html" -->
+
+    <div class="a">
+
+        <!-- Slideshow -->
+        <div class="slideshow">
+
+            <div class="mySlides">
+                <img class="slideshowImage" src="images/phillyenergy.png" alt="Map of energy infrastructure in Philadelphia">
+                <div class="slideCaption">
+                    <h4>Optimizing Renewables in Philadelphia</h4>
+                    <p>My latest publication (accepted in Applied Energy) deals with the optimal mix of distributed solar and wind generation to reduce required energy storage in the Philadelphia area. Using <a href="https://github.com/FlexiGIS/FlexiGIS">FlexiGIS</a>, we found that the optimum is an even 50%/50% mix of wind and solar. A variety of methods could also be considered to reduce storage at higher renewable penetration levels. <a href="preprints/Ranalli2020AE.pdf">Read Full Article</a></p>
+                </div>
+            </div>
+        
+            <div class="mySlides">
+                <img class="slideshowImage" src="images/DHISensor.jpg" alt="A DHI sensor measuring sunlight">
+                <div class="slideCaption">
+                    <h4>Sabbatical in Oldenburg</h4>
+                    <p>I spent six months of 2019 living in Oldenburg, Germany, where I worked as a visiting scientist with DLR and the University of Oldenburg. In my time there I developed skills with solar irradiance forecasting, and worked with all-sky imager data to develop a spatially resolved forecast of irradiance. Stay tuned for more results from this work! <a href="research.html">Read More</a></p>
+                </div>
+            </div>
+        
+            <div class="mySlides">
+                <img class="slideshowImage" src="images/timeseries.png" alt="Irradiance time series after smoothing">
+                <div class="slideCaption">
+                    <h4>Recreating solar irradiance time series</h4>
+                    <p>One of my key sabbatical projects was improving upon existing models that predict how a solar irradiance time series is smoothed due to aggregation by a large plant. Surprisingly, my combustion expertise was able to come into play, helping me make a better model for solar energy. I have recent results from this work in two recent conference publications and a journal article. <a href="research.html">Read More</a></p>
+                </div>
+            </div>
+            
+            <div class="mySlides">
+                <img class="slideshowImage" src="images/solarPanelInstallation.jpg" alt="Engineering students install a solar panel.">
+                <div class="slideCaption">
+                    <h4>Solar Energy Installer Training</h4>
+                    <p>Hazleton engineering students learn to install a grid-tied solar array and see first hand how their designs
+                        will be put into practice.</p>
+                </div>
+            </div>
+
+
+
+            <!-- Slideshow buttons-->
+            <button class="slideshow-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slideshow-button button-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+
+        <div style="background-color: #093162;">
+            <br>
+        </div>
+        <div class="mainContent">
+            <br>
+
+            <!-- Image Menu -->
+            <div class="threeColumns">
+                <div>
+                    <a href="research.html#solar">
+                        <img class="contentImage" src="images/solarPanel.jpg" alt="Firefighters spray solar panel with specialized foam.">
+                        <h1>Solar Energy</h1>
+                        <br>
+                        <br>
+                    </a>
+                </div>
+                <div>
+                    <a href="research.html#pedagogy">
+                        <img class="contentImage" src="images/IMG_20121015_160050.jpg" alt="Students test rocket designs in Kerbal Space Program.">
+                        <h1>Engineering Pedagogy</h1>
+                        <br>
+                        <br>
+                    </a>
+                </div>
+                <div>
+                    <a href="research.html#combustion">
+                        <img class="contentImage" src="images/HSIFlame.jpg" alt="Flame">
+                        <h1>Combustion</h1>
+                    </a>
+                </div>
+            </div>
+
+            <br>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!--#include file="footer.html" -->
+    <script src="slideshow.js"></script>
+    <script src="toggleButton.js"></script>
+</body>
+
+</html>
