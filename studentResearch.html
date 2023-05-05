@@ -14,8 +14,8 @@
 
 <body>
     <!-- Navigation Bar -->
-	<!--#include file="titlebar.html" -->
-
+	<div w3-include-html="titlebar.html"></div> 
+	
     <div class="a">
 
         <!-- Student Projects -->
@@ -121,8 +121,12 @@
     </div>
 
     <!-- Footer -->
-    <!--#include file="footer.html" -->
+	<div w3-include-html="footer.html"></div> 
     <script src="toggleButton.js"></script>
+	<script src="loadhtml.js"></script>
+	<script>
+		includeHTML();
+	</script>
 </body>
 
 </html>
